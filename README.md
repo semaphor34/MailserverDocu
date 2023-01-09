@@ -1,7 +1,8 @@
 # SMTPSendOnly
 
 **Vorraussetzungen:**
-- 1. Ein kostenloser Account in https://app.mailjet.com/ - Hier gibt es die Möglichekeit 200 Mails am Tag kostenlos. Alles andere Mails nach 200. kommen in die Warteschlange und werden dann am nächsten Tag weiter verarbeitet. Oder 600 Mails in 3 Tagen.
+- 1. Ein kostenloser Account in https://app.mailjet.com/ - Hier gibt es die Möglichekeit 200 Mails am Tag kostenlos. Alle anderen Mails nach der 200. Mail kommen in die Warteschlange und werden dann am nächsten Tag weiter verarbeitet und verschickt. Oder 600 Mails als Limit innerhalb 3 Tagen und 6000 innerhlab einem Monat. Dii Ablaufzeit in der Warteschlange ist nur für 3 Tage gültig.
+- 
 
 - 2. Ein minimales Linuxsystem(in dieser Anleitung Ubuntu Server 22.04.1), bei dem Postfix installiert wird. Dieser Server muss eine Portfreigabe für 25 oder 587 haben.
 
