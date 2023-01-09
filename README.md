@@ -101,7 +101,7 @@ Sobald die Maildomain validiert ist, kann nun der Linuxserver als Relay für and
 
 **Einen Sendetest durchführen:**
 
-``echo "The body part of the email!" | mail -s "Subject of the email" -a "From: sender@sub.main.example.com" receiver@example.com``
+``Linuxserver:$ echo "The body part of the email!" | mail -s "Subject of the email" -a "From: sender@sub.main.example.com" receiver@example.com``
 
 
 
