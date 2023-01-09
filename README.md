@@ -91,7 +91,7 @@ Die Validierung sollte über einen Webserver gemacht werden, wenn DSN-Einträge 
 
 ![image](https://user-images.githubusercontent.com/99675262/211313123-e9ab9341-e4e0-412f-b176-abe09548673b.png)
 
-Sobald die Maildomain validiert ist, kann nun der Linuxserver als Relay für andere Mailserver innerhalb des Subnets.
+Sobald die Maildomain validiert ist, kann nun der Linuxserver als Relay für andere Mailserver innerhalb des Subnets verwendet werden.
 
 
 ### Testen von SMTP-Relay
