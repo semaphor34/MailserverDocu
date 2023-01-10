@@ -104,6 +104,9 @@ Sobald die Maildomain validiert ist, kann nun der Linuxserver als Relay für and
 
 ``Linuxserver:$ echo "The body part of the email!" | mail -s "Subject of the email" -a "From: sender@sub.main.example.com" receiver@example.com``
 
+# Hinweis
+- * Diese Konfiguration erlaubt keine Nutzung von Verteilerlisten. Dafür sind weitere Konfiguration in Postfix und Mailjet nötig.
+
 
 
 
