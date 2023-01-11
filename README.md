@@ -98,7 +98,7 @@ Sobald die Maildomain validiert ist, kann nun der Linuxserver als Relay für and
 ### Testen von SMTP-Relay
 **Installieren von mailutils**
 
-```Linuxserver:$ sudo apt install mailutils``
+``Linuxserver:$ sudo apt install mailutils``
 
 **Einen Sendetest durchführen:**
 
