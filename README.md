@@ -63,7 +63,7 @@ Danach erstelle eine Datei in /etc/postfix sasl_passwd und trage dort die Daten 
 
 ```
 Linuxserver:$ sudo touch /etc/postfix/sasl_passwd
-Linuxserver:$ sudo echo in-v3.mailjet.com:587 api-key:secret-key
+Linuxserver:$ sudo echo in-v3.mailjet.com:587 api-key:secret-key > /etc/postfix/sasl_passwd
 ```
 
 Nach der Konfiguration die Passwortdatei mappen und den Postfix Dienst neustarten!
